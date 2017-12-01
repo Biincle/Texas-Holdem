@@ -1,0 +1,75 @@
+- krupier daje 2 graczom po 2 karty
+ 
+- pierwszy gracz wystawia "startowa" stawke (25$)
+ 
+- drugi gracz moze wystawic minimalna stawke (50$)
+ 
+- pierwszy gracz moze dołozyc do minimalnej stawki, podbic lub spasowac
+    - jezeli podbije jest kolej drugiego gracza i musi on dołożyc, podbic lub spasowac
+    - jezeli gracz nie podbije stawki wszystkie $ idą do krupiera
+ 
+- krupier kładzie 3 karty na stole
+ 
+- pierwszy gracz wystawia dowolną stawke
+ 
+- drugi gracz moze podbić, dołożyć albo spasować
+    - jezeli podbije jest kolej pierwszego gracza i musi on dołożyc, podbic lub spasowac
+    - jezeli gracz nie podbije stawki wszystkie $ idą do krupiera
+ 
+- krupier dokłada 1 kartę na stół
+ 
+- pierwszy gracz wystawia dowolną stawke
+ 
+- drugi gracz moze podbić, dołożyć albo spasować
+    - jezeli podbije jest kolej pierwszego gracza i musi on dołożyc, podbic lub spasowac
+    - jezeli gracz nie podbije stawki wszystkie $ idą do krupiera
+ 
+- Krupier dokłada ostatnią kartę tak by było 5 kart na stole
+ 
+- pierwszy gracz wystawia dowolną stawke
+ 
+- drugi gracz moze podbić, dołożyć albo spasować
+    - jezeli podbije jest kolej pierwszego gracza i musi on dołożyc, podbic lub spasowac
+    - jezeli gracz nie podbije stawki wszystkie $ idą do krupiera
+ 
+- Gracz który wygrał poprzez najlepszy układ kart, dostaje całą stawkę któremu gracze dawali stawki
+    - jezeli gracze mają remis z danym układem kart to wygrywa najwyższa karta
+    - Jeżeli obaj gracze mają tą samą najwyższą kartę to stawki rozdzielają się na pół i zwracają wracają do graczy.
+ 
+- Po całej grze gracze wymieniają się miejscami.
+ 
+- Następują kolejne rundy dopóki ktoś z graczy nie będzie miał więcej pieniędzy.
+ 
+ 
+Układ kart od najmocniejszego do najsłabszego.
+ 
+- Poker królewski (as, król, dama, walet, dziesiątka w jednym kolorze) – najwyższy możliwy układ kart w pokerze.
+ 
+- Poker, czyli strit w kolorze (pięć kolejnych kart w jednym kolorze) – jeżeli dwóch graczy ma pokera, wygrywa ten którego poker zaczyna się od wyższej karty.
+ 
+- Kareta (cztery karty tej samej wartości) – jeśli dwóch graczy ma karetę wygrywa ten którego kareta jest z wyższych kart,
+jeśli obydwoje mają tę samą karetę (zdarza się tak, gdy kareta składa się wyłącznie z kart wspólnych), wygrywa ten który ma wyższą piątą kartę
+(piąta karta może być wybrana zarówno z ręki jak i ze stołu), jeśli także jest taka sama to jest remis i następuje podział puli.
+ 
+- Ful (trójka i para) – jeśli dwóch graczy ma fula wygrywa ten, który ma wyższą trójkę, jeśli obydwaj mają tę samą trójkę wygrywa ten który ma wyższą parę,
+jeśli i para jest taka sama to jest remis i następuje podział puli.
+ 
+- Kolor (pięć dowolnych kart w tym samym kolorze) – jeśli dwóch graczy ma kolor wygrywa ten którego kolor ma najwyższą kartę.
+ 
+- Strit (pięć kolejnych kart nie w kolorze) – jeśli dwóch graczy ma strita wygrywa ten,
+którego strit zaczyna się od wyższej karty (as w stricie może być najwyższą lub najniższą kartą – jedynką).
+ 
+- Trójka (trzy karty tej samej wartości) – jeśli dwóch graczy ma trójkę wygrywa ten którego trójka jest z wyższych kart,
+jeśli trójka jest taka sama to wygrywa ten którego wyższa jest czwarta karta, jeśli jest taka sama to ten który ma wyższą piątą kartę,
+a jeśli i ona jest taka sama to jest remis i następuje podział puli.
+ 
+- Dwie pary – jeśli dwóch graczy ma dwie pary wygrywa ten z najwyższą parą, jeśli najwyższa para jest taka sama to wygrywa ten który ma wyższą drugą parę,
+jeśli też jest taka sama to wygrywa ten który ma wyższą piątą kartę, jeśli i ona jest taka sama to jest remis i następuje podział puli.
+ 
+- Para (dwie karty o tej samej wartości) – jeśli dwóch graczy ma parę wygrywa ten z wyższą parą,
+jeśli para jest taka sama to decydują po kolei trzecia, a później czwarta i ewentualnie piąta karta.
+Jeśli wszystkie są takie same dla obydwu graczy to jest remis i następuje podział puli.
+ 
+- Wysoka karta (jeśli nie mamy żadnego z powyższych układów to wówczas mamy wysoką kartę) – jeśli dwóch graczy nie ma żadnego układu wówczas wygrywa ten który ma najwyższą kartę,
+jeśli pierwsza wysoka karta jest taka sama to o zwycięstwie decyduje po kolei druga, trzecia, czwarta i piąta karta,
+jeśli wszystkie są takie same dla obydwu graczy to jest remis i następuje podział puli.
