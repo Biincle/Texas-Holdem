@@ -1,13 +1,13 @@
 <?php
   include "gracz.class.php";
   include "krupier.class.php";
+  include "karta.class.php";
 
-  $gracz = new gracz;
-  $krupier = new krupier;
+  // $gracz = new gracz;
+//  $krupier = new krupier;
+  // $karta = new Card;
 
-  //Losowanie karty dla kazdego z graczy
-  $krupier->rozdaj(2);
-  echo $gracz->rekaGracza;
+
 
 ?>
 
@@ -18,7 +18,7 @@
     <title>Texas Holdem</title>
   </head>
   <body>
-
+    <h4>witam</h4>
 
 
 

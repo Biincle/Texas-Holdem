@@ -1,16 +1,43 @@
 <?php
+include 'karta.class.php';
 class krupier {
 
   /**	* 52 card poker deck
   */
-   private $deck = array(	'AC', '2C', '3C', '4C', '5C', '6C', '7C', '8C', '9C', '10C', 'JC', 'QC', 'KC',
-              'AQ', '2Q', '3Q', '4Q', '5Q', '6Q', '7Q', '8Q', '9Q', '10Q', 'JQ', 'QQ', 'KQ',
-              'AF', '2F', '3F', '4F', '5F', '6F', '7F', '8F', '9F', '10F', 'JF', 'QF', 'KF',
-              'AP', '2P', '3P', '4P', '5P', '6P', '7P', '8P', '9P', '10P', 'JP', 'QP', 'KP',
-            );
+    private $values = Array('Ap','Ak','At','Ac','2p','2k','2t','2c','3p','3k','3t','3c',
+                 '4p','4k','4t','4c','5p','5k','5t','5c','6p','6k','6t','6c',
+                 '7p','7k','7t','7c','8p','8k','8t','8c','9p','9k','9t','9c',
+                 '1p','1k','1t','1c','Jp','Jk','Jt','Jc','Qp','Qk','Qt','Qc',
+                 'Kp','Kk','Kt','Kc');
 
-    function rozdaj($ilosc){
-      
+    private $deck;
+    function __construct()
+    {
+      $this->shuffle();
+        foreach ($this->values as $value) {
+          $card = new Card($value[0], $value[1]);
+          $this->deck[] = $card;
+        }
     }
+    public function shuffle(){
+      shuffle($this->values);
+    }
+
+
+    
+
+///Do testow
+    public function zwrocDeck(){
+      return $this->deck;
+    }
+
+
+
+
+
 }
+
+$test = new krupier;
+print_r($test->zwrocDeck());
+
 ?>
